@@ -5,7 +5,7 @@ library(ranger)
 library(caret)
 library(terra)
 
-data <- read.csv("D:/Soil_health/Analysis/soil_str_data_mapping_11_10_23.csv")
+data <- read.csv("D:/Soil_health/Analysis/soil_str_data_mapping.csv")
 
 
 #Soil structure class by overlap
