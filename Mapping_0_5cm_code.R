@@ -294,7 +294,7 @@ soil_structure_map <- raster::predict(
 plot(soil_structure_map)
 
 
-#writeRaster(soil_structure_map, "D:/Soil_health_christine/Analysis/Soil_structure_0_5cm.tif")
+#writeRaster(soil_structure_map, "D:/Soil_health/Analysis/Soil_structure_0_5cm.tif")
 
 
 #Probability + Uncertainty Map
@@ -322,7 +322,7 @@ uncertainty <- 1 - max_prob
 plot(uncertainty)
 
 
-writeRaster(uncertainty, "D:/Soil_health_christine/Analysis/Soil_structure_try3_0_5cm_20_06_2026cm_uncertainity.tif")
+writeRaster(uncertainty, "D:/Soil_health_christine/Analysis/Soil_structure_0_5cm_uncertainity.tif")
 
 
 for (i in 1:nlyr(prob_maps)) {
